@@ -6,6 +6,8 @@ import java.util.Date;
 
 /*
  * https://docs.oracle.com/javase/10/docs/api/java/util/Date.html
+ * https://docs.oracle.com/javase/10/docs/api/java/text/SimpleDateFormat.html
+ * 
  * Alisson Youssf - Revisão emm 03/09/2018. 
  */
 public class Program {
@@ -25,5 +27,6 @@ public class Program {
 		System.out.println("x2: " + sdf2.format(x2));
 		System.out.println("y1: " + sdf1.format(y1));
 		System.out.println("y2: " + sdf2.format(y2));
+		//
 	}
 }
