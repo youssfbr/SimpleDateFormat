@@ -30,6 +30,7 @@ public class Program {
 		Date y2 = sdf2.parse("03/09/2018 17:20:07");
 		Date y3 = Date.from(Instant.parse("2018-09-04T09:33:07Z"));
 		
+		System.out.println("--------------------------------------------------------------");
 		System.out.println("x1: " + sdf2.format(x1));
 		System.out.println("x2: " + sdf2.format(x2));
 		System.out.println("x3: " + sdf2.format(x3));
@@ -37,6 +38,21 @@ public class Program {
 		System.out.println("y1: " + sdf1.format(y1));
 		System.out.println("y2: " + sdf2.format(y2));
 		System.out.println("y3: " + sdf3.format(y3));
-		
+		System.out.println("--------------------------------------------------------------");
+		System.out.println("x1: " + sdf3.format(x1));
+		System.out.println("x2: " + sdf3.format(x2));
+		System.out.println("x3: " + sdf3.format(x3));
+		System.out.println("x4: " + sdf3.format(x4));
+		System.out.println("y1: " + sdf3.format(y1));
+		System.out.println("y2: " + sdf3.format(y2));
+		System.out.println("y3: " + sdf3.format(y3));
+		System.out.println("--------------------------------------------------------------");
+		System.out.println("x1: " + x1);
+		System.out.println("x2: " + x2);
+		System.out.println("x3: " + x3);
+		System.out.println("x4: " + x4);
+		System.out.println("y1: " + y1);
+		System.out.println("y2: " + y2);
+		System.out.println("y3: " + y3);
 	}
 }
